@@ -90,7 +90,7 @@ export default function Testimonials() {
               
               {/* Content */}
               <div className="relative mb-8">
-                <div className="text-6xl absolute -top-4 -left-2 text-blue-100 opacity-50">"</div>
+                <div className="text-6xl absolute -top-4 -left-2 text-blue-100 opacity-50">&ldquo;</div>
                 <p className="text-gray-700 text-lg leading-relaxed relative z-10 pl-6">
                   {testimonial.content}
                 </p>
@@ -151,68 +151,6 @@ export default function Testimonials() {
             ))}
           </div>
         </div>
-
-        {/* Bottom CTA */}
-        <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-blue-600 to-purple-700 rounded-3xl p-16 text-white relative overflow-hidden">
-            
-            {/* Background Elements */}
-            <div className="absolute top-0 left-0 w-64 h-64 bg-white/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
-            <div className="absolute bottom-0 right-0 w-48 h-48 bg-white/5 rounded-full translate-x-1/2 translate-y-1/2"></div>
-            
-            <div className="relative z-10">
-              <h3 className="text-3xl md:text-4xl font-black mb-6">
-                ¿Listo para Unirte a Nuestra Comunidad?
-              </h3>
-              <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto leading-relaxed">
-                Descubre por qué empresas líderes eligen PrintWear Pro para sus proyectos textiles más importantes
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                <a 
-                  href="#cotizar" 
-                  className="bg-white text-gray-900 px-12 py-5 rounded-2xl font-bold text-lg hover-lift transition-all duration-300 shadow-2xl hover:shadow-3xl min-w-[280px] text-center group"
-                >
-                  <span className="flex items-center justify-center gap-3">
-                    💼 Iniciar Proyecto
-                    <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                  </span>
-                </a>
-                
-                <a 
-                  href="#casos-exito" 
-                  className="border-2 border-white/30 text-white px-12 py-5 rounded-2xl font-semibold text-lg hover-lift hover:bg-white/10 transition-all duration-300 backdrop-blur-sm min-w-[280px] text-center group"
-                >
-                  <span className="flex items-center justify-center gap-3">
-                    📚 Ver Casos de Éxito
-                    <svg className="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                  </span>
-                </a>
-              </div>
-
-              {/* Trust Metrics */}
-              <div className="flex flex-wrap justify-center items-center gap-8 mt-12 pt-12 border-t border-white/20">
-                <div className="text-center">
-                  <div className="text-2xl font-black text-white">98%</div>
-                  <div className="text-blue-100 text-sm">Tasa de Retención</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-black text-white">4.9/5</div>
-                  <div className="text-blue-100 text-sm">Rating Promedio</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-black text-white">75+</div>
-                  <div className="text-blue-100 text-sm">Clientes Activos</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
   );
